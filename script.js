@@ -4,6 +4,7 @@ function compute() //Computes the interests
     if (principal <=0){ //Validates the user input for principal value
         alert("Enter a positive number"); //Alerts the user to enter a positive value
         document.getElementById("principal").focus(); //Focuses the principal box to indicate that there must be change in this field value
+        document.getElementById("result").innerHTML="\<br\>";
 
     }
     else{
