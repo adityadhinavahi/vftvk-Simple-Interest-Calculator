@@ -17,7 +17,7 @@ function compute() //Computes the interests
 
 function updateRate(){ //updates the range value
     var rateval = document.getElementById("rate").value; //Retrieves the input rate value
-    document.getElementById("rate_val").innerText=rateval; //Sets the rate value to span tag
+    document.getElementById("rate_val").innerText=rateval+"%"; //Sets the rate value to span tag
     
 }
         
