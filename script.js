@@ -12,7 +12,7 @@ function compute() //Computes the interests
     var years = document.getElementById("years").value; //retrieves the years value
     var interest = principal * years * rate/100; //Calculates the interest
     var year = new Date().getFullYear()+parseInt(years); //Calculates the future year based on the present year and the year input
-    document.getElementById("result").innerHTML="If you deposit "+principal+", \<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"; //Displays the result wherein the user can see the amount to be invested, the chosen rate, the final amount to be recieved at x years from the present year. x=number of years given by the user
+    document.getElementById("result").innerHTML="If you deposit \<mark\>"+principal+"\</mark\>, \<br\>at an interest rate of \<mark\>"+rate+"%\</mark\>\<br\>You will receive an amount of \<mark\>"+interest+"\</mark\>,\<br\>in the year \<mark\>"+year+"\</mark\>\<br\>"; //Displays the result wherein the user can see the amount to be invested, the chosen rate, the final amount to be recieved at x years from the present year. x=number of years given by the user
     }
 
     
